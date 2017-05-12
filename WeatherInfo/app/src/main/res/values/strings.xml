@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Weather Info</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="url">http://api.openweathermap.org</string>
+    <string name="enterCity">Please enter a city!</string>
+    <string name="am">" AM"</string>
+    <string name="pm">" PM"</string>
+    <string name="error">"Error Message: "</string>
+    <string name="add_a_city">Add a city!</string>
+    <string name="enter_a_city">Enter a city...</string>
+    <string name="submit">Submit</string>
+    <string name="filler_text">FILLER TEXT</string>
+    <string name="temp">TEMP</string>
+    <string name="description">Description:</string>
+    <string name="desc_place_holder">DESC PLACE HOLDER</string>
+    <string name="temp_range">Temp Range:</string>
+    <string name="maxt">MaxT</string>
+    <string name="minus">-</string>
+    <string name="mint">MinT</string>
+    <string name="humidity">Humidity:</string>
+    <string name="hum_place_holder">HUM PLACE HOLDER</string>
+    <string name="sunrise_sunset">Sunrise, Sunset:</string>
+    <string name="sunrise">SUNRISE</string>
+    <string name="minus2">-</string>
+    <string name="sunset">SUNSET</string>
+    <string name="filler_title">Filler title</string>
+    <string name="humidity2">Humidity:</string>
+    <string name="filler_hum">Filler hum</string>
+    <string name="sunset2">Sunset:</string>
+    <string name="filler_sset">Filler sset</string>
+    <string name="sunrise2">Sunrise:</string>
+    <string name="filler_srise">Filler srise</string>
+    <string name="details">(Extra details)</string>
+    <string name="user_error">Something went wrong, try again!</string>
+    <string name="log_message">API Call Error</string>
+    <string name="urlEnd">.png</string>
+</resources>

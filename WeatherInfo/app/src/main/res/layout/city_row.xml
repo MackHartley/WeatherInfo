@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/cityTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:text="@string/filler_text"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cityTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/cityTitle"
+                android:paddingRight="8dp"
+                android:text="@string/temp"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/iconPlaceHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/cityTemp"
+                android:adjustViewBounds="true"
+                android:maxHeight="32dp"
+                android:maxWidth="32dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sunny" />
+
+            <ImageView
+                android:id="@+id/deleteCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="40dp"
+                android:maxWidth="40dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/delete" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:text="@string/description" />
+
+            <TextView
+                android:id="@+id/descPlaceHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/desc_place_holder" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:text="@string/temp_range" />
+
+            <TextView
+                android:id="@+id/minTPlaceHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mint" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/minus" />
+
+            <TextView
+                android:id="@+id/maxTPlaceHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maxt" />
+
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/humidity"-->
+        <!--android:paddingRight="16dp"/>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/hum_place_holder"-->
+        <!--android:id="@+id/humPlaceHolder"/>-->
+
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/sunrise_sunset"-->
+        <!--android:paddingRight="16dp"/>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/sunrise"-->
+        <!--android:id="@+id/sunrisePlaceHolder"/>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/minus2"/>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/sunset"-->
+        <!--android:id="@+id/sunsetPlaceHolder"/>-->
+
+
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+
+
+    <!--title;-->
+
+    <!--private String description;-->
+
+    <!--private float temperature;-->
+    <!--private float minTemp;-->
+    <!--private float maxTemp;-->
+
+    <!--private float humidity;-->
+
+    <!--private int sunrise;-->
+    <!--private int sunset;-->
+    <!--private Image ico-->
+
+
+</RelativeLayout>
